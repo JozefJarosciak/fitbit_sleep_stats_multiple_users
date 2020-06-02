@@ -1,9 +1,13 @@
 # Retrieval of Sleep-Related Data from Fitbit Accounts of Multiple Users
+
+##########################################################################
+
 Date: May 2020
 
 Author: Jozef Jarosciak - jozef@jarosciak.com - https://joe0.com
 
 Licensing: MIT license
+
 ##########################################################################
 
 # Requirements:
