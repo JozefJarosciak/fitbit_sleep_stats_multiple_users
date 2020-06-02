@@ -10,8 +10,10 @@ Licensing: MIT license
 - Installed **Google Chrome vs 83**+
 - **chromedriver.exe** in the program's folder (one packaged with the code is for Chrome 83+)
 - Writable subfolder 'export-patients' in the program's root
-- **list-of-patients.json** - this file contains the list of patients in JSON format.
-   - Specify login name and password of each patient and the data range for which to extract the sleep patterns
+- **list-of-patients.json** - this file contains the list of patients in JSON format:
+    - Specify the first name, last name of each of the users (patients)
+    - Specify the web login name and password of each patient (this is the user name and password user uses to login to Fitbit)
+    - The data range for which to extract the sleep patterns (start and end date)
 - Python Libraries: **json5==0.8.5, requests==2.22.0 and selenium==3.141.0** web driver. If it doesn't work just run 'pip3 install -r requirements.txt' in your shell
 
 # How to Run:
