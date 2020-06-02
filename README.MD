@@ -1,4 +1,4 @@
-# Retrieval of Sleep-Related Data from Fitbit Accounts of Multiple Users
+# Retrieval of Sleep-Related Data from Fitbit Accounts of Multiple Users (w/o OAuth Prompts) by leveraging Selenium ChromeDriver
 
 ##########################################################################
 
@@ -12,7 +12,7 @@ Licensing: MIT license
 
 # Requirements:
 - Installed **Google Chrome vs 83**+
-- **chromedriver.exe** in the program's folder (one packaged with the code is for Chrome 83+)
+- **chromedriver.exe** in the program's folder (one packaged with the code is for Chrome 83+) - This is required by Selenium
 - Writable subfolder 'export-patients' in the program's root
 - **list-of-patients.json** - this file contains the list of patients in JSON format:
     - Specify the first name, last name of each of the users (patients)
