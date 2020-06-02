@@ -1,0 +1,20 @@
+{
+  "patients": [
+    {
+      "First Name": "FirstName1",
+      "Last Name": "LastName1",
+      "Login Name": "email1",
+      "Password": "password1",
+      "Start Date": "2020-05-06",
+      "End Date": "2020-05-12"
+    },
+    {
+      "First Name": "FirstName1",
+      "Last Name": "LastName1",
+      "Login Name": "email2",
+      "Password": "password2",
+      "Start Date": "2020-05-08",
+      "End Date": "2020-05-14"
+    }
+  ]
+}
