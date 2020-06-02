@@ -30,7 +30,7 @@ Licensing: MIT license
 
 	**FirstName-LastName__StartDate-to-EndDate.json** 
 	
-	e.g. Camila-Koike__2020-05-06-to-2020-05-12.json
+	e.g. Jozef-Jarosciak__2020-05-06-to-2020-05-12.json
 
 # Issues:
 - The code is currently as is, I did not have the time to code in the proper handling of exceptions and debug it.
