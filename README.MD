@@ -2,13 +2,20 @@
 
 ##########################################################################
 
-Date: May 2020
+Date: June 2020
 
 Author: Jozef Jarosciak - jozef@jarosciak.com - https://joe0.com
 
 Licensing: MIT license
 
 ##########################################################################
+
+# About
+This software allows to retrieve the sleep-related data from Fitbit accounts of Multiple Users.
+The program functions in a nonstandard and unobtrusive way, as it doesn't require OAuth Prompts when switching from one user to another during processing.
+It retrieves OAuth access tokens silently from the each of the Fitbit devices, by leveraging Selenium ChromeDriver.
+Once the authentication is obtained, the bearer information is then used to call the Fitbit API for the sleep related JSON files,
+which are saved separately for each of the Fitbit users. 
 
 # Requirements:
 - Installed **Google Chrome vs 83**+
