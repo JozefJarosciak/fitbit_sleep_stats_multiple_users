@@ -15,6 +15,9 @@ It retrieves OAuth access tokens silently from the each of the Fitbit devices, b
 Once the authentication is obtained, the bearer information is then used to call the Fitbit API for the sleep related JSON files,
 which are saved separately for each of the Fitbit users. 
 
+# How it Works
+![Image of the Software Process](https://i.imgur.com/CibR2PC.png)
+
 # Requirements:
 - Installed **Google Chrome vs 83**+
 - **chromedriver.exe** in the program's folder (one packaged with the code is for Chrome 83+) - This is required by Selenium
