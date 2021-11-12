@@ -9,6 +9,9 @@ Licensing: MIT license
 ##########################################################################
 
 # About
+I was contacted by an assistant professor at Harvard Medical School on LinkedIn, regarding some work I published a while back when I did my master's degree. So over the last couple of weeks, I was helping them with some coding to gather sleep and heart rate data from the fitness devices of adolescent patients with chronic pain and helped them at the Boston hospital to bring it all into a centralized DB. It was a very interesting project, we finished work on it and it felt good to be associated with something that may help sick kids. 
+
+# Detail
 This software allows to retrieve the sleep-related data from Fitbit accounts of Multiple Users (in this specific case - adolescent patients using Fitbit devices).
 The program functions in a nonstandard and unobtrusive way, as it doesn't require OAuth Prompts when switching from one user to another during processing.
 It retrieves OAuth access tokens silently from the each of the Fitbit devices, by leveraging Selenium ChromeDriver.
